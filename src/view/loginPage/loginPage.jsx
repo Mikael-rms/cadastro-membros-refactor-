@@ -9,13 +9,11 @@ function LoginPage() {
       <form className="flex flex-col space-y-4 w-full max-w-sm">
         
         <input 
-          type="text" placeholder="nome" className="bg-slate-100 border border-slate-300 w-full px-4 py-2 rounded-md" />
-        <input 
-          type="email" placeholder="seu.email@exemplo.com" className="bg-slate-100 border border-slate-300 w-full px-4 py-2 rounded-md" />        
+          type="text" placeholder="nome" className="bg-slate-100 border border-slate-300 w-full px-4 py-2 rounded-md" />       
         <input 
           type="password" placeholder="password" className="bg-slate-100 border border-slate-300 w-full px-4 py-2 rounded-md" />
         <button 
-          type="submit" className="mt-4 bg-blue-900 w-full p-2 rounded-xl text-white transition-all duration-300 ease-in-out hover:bg-blue-800" >
+          type="submit" className="mt-4 bg-blue-900 w-full p-2 rounded-xl text-white transition-all duration-300 ease-in-out hover:bg-blue-800 cursor-pointer" >
           Entrar
         </button>
         
