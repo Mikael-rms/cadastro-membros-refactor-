@@ -1,4 +1,5 @@
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft } from "lucide-react"; 
+
 function HomePage() {
     return (
     <section className="bg-slate-900 h-screen w-screen flex flex-col justify-center items-center p-4">
